@@ -19,6 +19,18 @@
 
 @font-face {
   font-family: DIN Pro;
+  font-weight: lighter;
+  src: url("assets/fonts/DINNextLTPro-Light.otf") format("opentype");
+}
+
+// @font-face {
+//   font-family: DIN Pro;
+//   font-weight: normal;
+//   src: url("assets/fonts/DINNextLTPro-Medium.otf") format("opentype");
+// }
+
+@font-face {
+  font-family: DIN Pro;
   font-weight: bold;
   src: url("assets/fonts/DINNextLTPro-Bold.otf") format("opentype");
 }

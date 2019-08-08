@@ -22,7 +22,7 @@ const stephenDetail = () => {
     <ul className="anilDetail">
       <li>Carlyle Group, Co-Founder</li>
       <li>Marriott Corporation, Corporate Vice President and head of the Tax department</li>
-      <li>Federal Retirement Thrift Investment Board, Board Advisor appointed by President Bush, confirmed by the US Senate</li>
+      <li>Federal Retirement Thrift Investment Board, Board Advisor appointed by President Bush, confirmed by the US Senate.</li>
     </ul>
   );
 };
@@ -31,7 +31,7 @@ const michaelDetail = () => {
   return (
     <ul className="anilDetail">
       <li>Herbalife International, Executive VP of Marketing</li>
-      <li>Shop Television Network, Founder and CEO. Became JCPenney Home Shopping Channel and later acquired by QVC</li>
+      <li>Shop Television Network, Founder and CEO. Became JCPenney Home Shopping Channel and later acquired by QVC.</li>
       <li>United Postal Centers, Founder</li>
     </ul>
   );
@@ -41,12 +41,12 @@ const karlDetail = () => {
   return (
     <ul className="anilDetail">
       <li>Sway Ventures, General Partner</li>
-      <li>Vinted, Member of the Board. World's largest preloved fashion marketplace</li>
-      <li>Abbyy, Senior Advisor. World leader in OCR with upcoming IPO</li>
-      <li>Monster Inc, Senior Advisor. Sold subsidiary, Beats, to Apple</li>
-      <li>Pickit, Co-Founder. Sold to Microsoft</li>
-      <li>3721.com, Founder. Sold to Yahoo and rolled in to Alibaba</li>
-      <li>Scoop Inc, Founder. Listed on NASDAQ</li>
+      <li>Vinted, Member of the Board. World's largest preloved fashion marketplace.</li>
+      <li>Abbyy, Senior Advisor. World leader in OCR with upcoming IPO.</li>
+      <li>Monster Inc, Senior Advisor. Sold subsidiary, Beats, to Apple.</li>
+      <li>Pickit, Co-Founder. Sold to Microsoft.</li>
+      <li>3721.com, Founder. Sold to Yahoo and rolled in to Alibaba.</li>
+      <li>Scoop Inc, Founder. Listed on NASDAQ.</li>
     </ul>
   );
 };
