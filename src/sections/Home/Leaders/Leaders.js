@@ -117,7 +117,7 @@ const Leaders = () => {
             img={karl}
             name="KARL KARLSSON"
             company="Sway Ventures, GP"
-            title="Strategic Partnership"
+            title="Strategic Partnerships"
             detail={karlDetail}
           />
         </div>
@@ -140,7 +140,7 @@ const Leaders = () => {
             img={anil}
             name="ANIL BENARD-DENDE"
             company="Showroom Prive, Deputy CEO"
-            title="Operations and Customer Success"
+            title="Operations & Customer Success"
             detail={anilDetail}
           />
         </div>

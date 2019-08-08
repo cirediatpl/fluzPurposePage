@@ -27,7 +27,7 @@
       .arrow:after {
         content: "";
         border: solid grey;
-        border-width: 0 3px 3px 0;
+        border-width: 0 2px 2px 0;
         display: inline-block;
         padding: 3px;
         transform: rotate(45deg);
@@ -41,7 +41,7 @@
       .active:after {
         content: "";
         border: solid grey;
-        border-width: 0 3px 3px 0;
+        border-width: 0 2px 2px 0;
         display: inline-block;
         padding: 3px;
         transform: rotate(225deg);
@@ -55,6 +55,12 @@
 
     .anilDetail {
       padding-left: 15px;
+    }
+    
+    .anilDetail li {
+      line-height: 22px;
+      margin: 8px;
+      font-weight: 100;
     }
   }
 
