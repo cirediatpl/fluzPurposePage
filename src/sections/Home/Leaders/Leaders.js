@@ -11,7 +11,7 @@ import stephen from "../../../assets/leaders/STEPHEN-NORRIS.png";
 const logos = Array.apply(null, Array(12)).map((logo, index) => (
   <div key={index} className="Leaders-logos-logo">
     <img
-      src={require(`../../../assets/logos/logo${index}.png`)}
+      src={require(`../../../assets/svg_logos/logo${index}.svg`)}
       alt="company logo"
     />
   </div>
