@@ -38,7 +38,8 @@ const TeamCard = props => {
 TeamCard.propTypes = {
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  visible: PropTypes.string.isRequired
 };
 
 export default TeamCard;

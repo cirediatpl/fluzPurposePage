@@ -50,9 +50,9 @@ const Team = () => {
           <TeamCard img={DouglasBraun} name="Stefan" title="Founder" />
         </div>
         <div className="Team-content-cards columns">
-          <TeamCard name="Zvika" title="Engineering" visible="hidden"/>
+          <TeamCard visible="hidden"/>
           <TeamCard img={DouglasBraun} name="Zvika" title="Engineering" />
-          <TeamCard name="Zvika" title="Engineering" visible="hidden"/>
+          <TeamCard visible="hidden"/>
         </div>
       </div>
     </section>
