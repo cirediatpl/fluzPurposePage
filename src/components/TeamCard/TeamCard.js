@@ -5,10 +5,11 @@ import { SimpleImg } from "react-simple-img";
 import PropTypes from "prop-types";
 
 const TeamCard = props => {
-  const { img, name, title } = props;
+  const { img, name, title, visible } = props;
+  const createCardClassName = `card card-container simple-card column ${visible === 'hidden' ? 'hidden': ''}`
 
   return (
-    <div className="card card-container simple-card column">
+    <div className={createCardClassName}>
       <div className="card-detail">
         <SimpleImg
           height={320}

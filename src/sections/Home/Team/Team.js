@@ -20,19 +20,39 @@ const Team = () => {
           </p>
         </div>
         <div className="Team-content-cards columns">
-          <TeamCard img={DouglasBraun} name="Douglas" title="title" />
-          <TeamCard img={Chase} name="Chase" title="title" />
-          <TeamCard img={Gavin} name="Gavin" title="title" />
+          <TeamCard img={DouglasBraun} name="Andrew" title="Operations" />
+          <TeamCard img={Chase} name="Chase" title="Customer Success" />
+          <TeamCard img={DouglasBraun} name="Elisabeth" title="Marketing" />
         </div>
         <div className="Team-content-cards columns">
-          <TeamCard img={Maurice} name="Maurice" title="title" />
-          <TeamCard img={Rae} name="Rae" title="title" />
-          <TeamCard img={DouglasBraun} name="Name" title="title" />
+          <TeamCard img={DouglasBraun} name="Eric" title="Marketing" />
+          <TeamCard img={Gavin} name="Gavin" title="Marketing" />
+          <TeamCard img={DouglasBraun} name="Gil" title="Marketing" />
         </div>
         <div className="Team-content-cards columns">
-          <TeamCard img={DouglasBraun} name="Name" title="title" />
-          <TeamCard img={DouglasBraun} name="Name" title="title" />
-          <TeamCard img={DouglasBraun} name="Name" title="title" />
+          <TeamCard img={DouglasBraun} name="Henry" title="Engineering" />
+          <TeamCard img={DouglasBraun} name="Jingyi" title="Marketing" />
+          <TeamCard img={DouglasBraun} name="Justine" title="Marketing" />
+        </div>
+        <div className="Team-content-cards columns">
+          <TeamCard img={DouglasBraun} name="Kenneth" title="Engineering" />
+          <TeamCard img={DouglasBraun} name="Lasha" title="Engineering" />
+          <TeamCard img={Maurice} name="Maurice" title="Founder" />
+        </div>
+        <div className="Team-content-cards columns">
+          <TeamCard img={DouglasBraun} name="Peter" title="Engineering" />
+          <TeamCard img={Rae} name="Rae" title="Customer Success" />
+          <TeamCard img={DouglasBraun} name="Shaka" title="Operations" />
+        </div>
+        <div className="Team-content-cards columns">
+          <TeamCard img={DouglasBraun} name="Sophia" title="Marketing" />
+          <TeamCard img={DouglasBraun} name="Stas" title="Engineering" />
+          <TeamCard img={DouglasBraun} name="Stefan" title="Founder" />
+        </div>
+        <div className="Team-content-cards columns">
+          <TeamCard name="Zvika" title="Engineering" visible="hidden"/>
+          <TeamCard img={DouglasBraun} name="Zvika" title="Engineering" />
+          <TeamCard name="Zvika" title="Engineering" visible="hidden"/>
         </div>
       </div>
     </section>
