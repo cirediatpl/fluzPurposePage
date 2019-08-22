@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.5.5",
     "bulma": "^0.7.5",
     "express": "^4.17.1",
     "include-media": "^1.4.9",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.5.5"
   }
 }
